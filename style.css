@@ -89,21 +89,24 @@ nav-footer div {
 }
 
 .footer-sx {
-    width: 20% ;
+    /*width: 20% ;*/
+    flex-grow: 1 ;
     justify-content: flex-start ;
 }
 
 .footer-centro {
-    width: 60% ;
+    /*width: 60% ;*/
     justify-content: center ;
+    flex-grow: 5 ;
 }
 
 .footer-dx {
-    width: 20% ;
-    justify-content: flex-end ;
-
+    /*width: 20% ;*/
+    justify-content: center ;
+    flex-grow: 1;
     background-color: #4a4a4a ;
     color: red ;
+  
 }
 
 nav-footer i {
@@ -113,6 +116,10 @@ nav-footer i {
 
 .fa-chevron-up {
     font-size: .7rem ;
+}
+
+.fa-share-square {
+    color: green ;
 }
 
 
