@@ -4,3 +4,125 @@
     box-sizing: border-box ; 
 }
 
+html {
+    font-family: 'Lato', sans-serif ;
+}
+
+nav {
+    display: flex ;
+    flex-direction: row-reverse ;
+    height: 70px ;
+    width: 100% ;
+    background-color: black ;
+
+}
+
+.pulsante-nav-1, .pulsante-nav-2 {
+    display: flex ;
+    align-items: center;
+    background-color: #4a4a4a ;
+    border-radius: 3px ;
+    height: 1.4rem ;
+    color: white ;
+    padding: .3rem .4rem ;
+    margin: .1rem .2rem ;
+
+}
+
+.pulsante-nav-1 {
+    order: 1 ;
+}
+
+.pulsante-nav-1 span { 
+    margin-left: .3rem ;
+    
+    
+}
+
+main {
+    width: 100% ;
+    background-color: black;
+    height: calc(100vh - 150px) ;
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    overflow-y: auto ;
+    justify-content: center ;
+}
+
+.partecipante {
+    position: relative ;
+    height: 146px ;
+    width: 246px ;
+    margin: .4rem .2rem ;
+}
+
+.nome {
+    position: absolute ;
+    left: 0 ;
+    bottom: 0 ;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white ;
+    padding: .4rem .2rem ;
+    font-size: .9rem ;
+}
+
+
+
+
+
+
+nav-footer {
+    width: 100% ;
+    height: 80px ;
+    background-color: #222222 ;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-between ;
+    color: white ;
+}
+
+nav-footer div {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    margin: 0 .5rem ;
+}
+
+.footer-sx, .footer-centro, .footer-dx {
+    display: flex ;
+    flex-direction: row ;
+    height: 100% ;
+
+}
+
+.footer-sx {
+    width: 20% ;
+    justify-content: flex-start ;
+}
+
+.footer-centro {
+    width: 60% ;
+    justify-content: center ;
+}
+
+.footer-dx {
+    width: 20% ;
+    justify-content: flex-end ;
+    
+    background-color: #4a4a4a ;
+    color: red ;
+}
+
+nav-footer i {
+    font-size: 1.5rem ;
+    margin: .2rem .5rem ;
+
+}
+
+.fa-chevron-up {
+    font-size: .7rem ;
+
+}
+
+
